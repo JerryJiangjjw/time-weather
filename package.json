@@ -1,0 +1,33 @@
+{
+  "name": "time-weather",
+  "version": "1.0.0",
+  "description": "显示日期、时间、中国农历、节假日的应用",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "日期",
+    "时间",
+    "农历",
+    "节假日"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "lunar-typescript": "^1.6.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  }
+}
